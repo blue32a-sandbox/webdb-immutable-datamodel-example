@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  php:
+    build: ./.docker/php
+    volumes:
+      - .:/var/www/html
+      - composer-vendor:/var/www/html/vendor
+
+volumes:
+  composer-vendor:
