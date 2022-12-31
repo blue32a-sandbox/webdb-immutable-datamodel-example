@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  golang:
+    image: golang:1.19-alpine
+    tty: true
+    working_dir: /go/src/app
+    volumes:
+      - .:/go/src/app:cached

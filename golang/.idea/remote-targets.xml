@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <option name="projectDefaultTargetUuid" value="da168aa8-4178-4b2c-af7a-a0b456955981" />
+    <targets>
+      <target name="golang" type="docker-compose" uuid="da168aa8-4178-4b2c-af7a-a0b456955981">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="configurationFiles">
+            <list>
+              <option value="D:\development\projects\blue32a-sandbox\webdb-immutable-datamodel-example\golang\docker-compose.yml" />
+            </list>
+          </option>
+          <option name="serviceName" value="golang" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="goPath" value="/go" />
+            <option name="goRoot" value="/usr/local/go/bin/go" />
+            <option name="goVersion" value="go1.19.3 linux/amd64" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
